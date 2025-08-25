@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Splash Screen Colors -->
+    <color name="splash_background">#FF1E1E1E</color>
+    <color name="splash_text_color">#FFFFFFFF</color>
+    <color name="splash_text_secondary">#FFB3B3B3</color>
+    
+    <!-- App Theme Colors - Purple Theme -->
+    <color name="primary_color">#551561</color>
+    <color name="primary_dark">#600885</color>
+    <color name="accent_color">#FFFF9800</color>
+    <color name="purple_light">#FFE1BEE7</color>
+    <color name="purple_dark">#FF4A148C</color>
+</resources>

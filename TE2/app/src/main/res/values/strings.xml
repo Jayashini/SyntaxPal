@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SyntaxPal</string>
+    
+    <!-- Splash Screen -->
+    <string name="splash_tagline">Simple but Powerful Text Editor</string>
+    <string name="app_logo_description">App Logo</string>
+    
+    <!-- Main App -->
+    <string name="new_file">New File</string>
+    <string name="open_file">Open File</string>
+    <string name="save_file">Save File</string>
+    <string name="file_name">File Name</string>
+    <string name="enter_file_name">Enter file name</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    
+
+    
+    <!-- Text Editing -->
+    <string name="copy">Copy</string>
+    <string name="paste">Paste</string>
+    <string name="cut">Cut</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    
+    <!-- Text Statistics -->
+    <string name="char_count">Chars: %d</string>
+    <string name="word_count">Words: %d</string>
+    <string name="line_count">Lines: %d</string>
+    <string name="text_stats">Text Statistics</string>
+    <string name="detailed_stats">Detailed Text Statistics</string>
+    <string name="characters">Characters</string>
+    <string name="words">Words</string>
+    <string name="lines">Lines</string>
+    <string name="paragraphs">Paragraphs</string>
+    <string name="sentences">Sentences</string>
+    
+    <!-- Find and Replace -->
+    <string name="find_replace">Find and Replace</string>
+    <string name="find">Find</string>
+    <string name="replace">Replace</string>
+    <string name="replace_all">Replace All</string>
+    <string name="close">Close</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="case_sensitive">Case sensitive</string>
+    <string name="whole_word">Whole word</string>
+    <string name="no_matches_found">No matches found</string>
+    <string name="matches_found">%d matches found</string>
+    <string name="replaced_occurrences">Replaced %d occurrences</string>
+</resources>

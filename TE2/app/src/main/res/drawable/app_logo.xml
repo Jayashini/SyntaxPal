@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M60,60m-60,0a60,60 0,1 1,120 0a60,60 0,1 1,-120 0" />
+    
+    <!-- Text Editor Icon -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M30,35 L90,35 A5,5 0,0 1,95 40 L95,80 A5,5 0,0 1,90 85 L30,85 A5,5 0,0 1,25 80 L25,40 A5,5 0,0 1,30 35 Z" />
+    
+    <!-- Text Lines -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M35,50 L85,50 L85,52 L35,52 Z" />
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M35,60 L85,60 L85,62 L35,62 Z" />
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M35,70 L75,70 L75,72 L35,72 Z" />
+    
+    <!-- Cursor -->
+    <path
+        android:fillColor="@color/accent_color"
+        android:pathData="M75,70 L77,70 L77,72 L75,72 Z" />
+</vector>

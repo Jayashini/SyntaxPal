@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find and Replace"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/primary_color" />
+
+    <!-- Find Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find:"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/et_find_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text to find"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/text_editor_background"
+        android:padding="8dp" />
+
+    <!-- Replace Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Replace with:"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/et_replace_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter replacement text"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/text_editor_background"
+        android:padding="8dp" />
+
+    <!-- Options -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <CheckBox
+            android:id="@+id/cb_case_sensitive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Case sensitive"
+            android:layout_marginEnd="16dp" />
+
+        <CheckBox
+            android:id="@+id/cb_whole_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whole word" />
+    </LinearLayout>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btn_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/file_type_background"
+            android:textColor="@color/primary_color"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btn_replace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Replace"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/file_type_background"
+            android:textColor="@color/primary_color"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btn_replace_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Replace All"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/file_type_background"
+            android:textColor="@color/primary_color"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+    <!-- Navigation buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="↑ Previous"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/file_type_background"
+            android:textColor="@color/primary_color"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="↓ Next"
+            android:background="@drawable/file_type_background"
+            android:textColor="@color/primary_color"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/file_type_background"
+            android:padding="8dp"
+            android:text="Close"
+            android:textColor="@color/primary_color" />
+    </LinearLayout>
+
+    <!-- Status text -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/primary_color" />
+
+</LinearLayout>

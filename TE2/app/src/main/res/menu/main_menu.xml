@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/action_new_file"
+        android:icon="@drawable/ic_new_file"
+        android:title="@string/new_file"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_open_file"
+        android:icon="@drawable/ic_open_file"
+        android:title="@string/open_file"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_save_file"
+        android:icon="@drawable/ic_save_file"
+        android:title="@string/save_file"
+        app:showAsAction="ifRoom" />
+    
+    <!-- Text editing operations -->
+    <item
+        android:id="@+id/action_copy"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/copy"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_paste"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/paste"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_cut"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/cut"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="@string/undo"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_redo"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/redo"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_stats"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/text_stats"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_find_replace"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/find_replace"
+        app:showAsAction="never" />
+        
+</menu>
